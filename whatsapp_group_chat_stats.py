@@ -1,21 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jun 21 18:03:41 2019
-
-@author: 2420412z
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jun 21 16:16:50 2019
-
-@author: 2420412z
-"""
 import re
 import os
 import collections
 
-watsup_file = 'ktl_chat.txt'
+watsup_file = 'your_chat_name.txt'
 if os.path.exists(watsup_file):
         file_data = open(watsup_file,'r', encoding="utf8")
         content = file_data.read() 
